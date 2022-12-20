@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.priye.pcbook.service.LaptopServerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-18T20:10:21" hostname="PRIYA-R" time="0.562">
+  <properties/>
+  <testcase name="createLaptopWithAnInvalidID" classname="com.priye.pcbook.service.LaptopServerTest" time="0.538"/>
+  <testcase name="createLaptopWithAnEmptyID" classname="com.priye.pcbook.service.LaptopServerTest" time="0.011"/>
+  <testcase name="createLaptopWithAnAlreadyExistsID" classname="com.priye.pcbook.service.LaptopServerTest" time="0.005"/>
+  <testcase name="createLaptopWithAValidID" classname="com.priye.pcbook.service.LaptopServerTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopServer start
+INFO: server started on port 0
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopService createLaptop
+INFO: got a create-laptop request with ID: invalid
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopServer start
+INFO: server started on port 0
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopService createLaptop
+INFO: got a create-laptop request with ID: 
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopService createLaptop
+INFO: saved laptop with ID: 53ef753f-e6fd-43e2-8b1f-53ee23e69dc9
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopServer start
+INFO: server started on port 0
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopService createLaptop
+INFO: got a create-laptop request with ID: ec4cb8fa-159e-46b4-8089-0282d53ccb55
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopServer start
+INFO: server started on port 0
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopService createLaptop
+INFO: got a create-laptop request with ID: 7d062fbb-b0b4-443a-81dc-917ad9586b1a
+Dec 19, 2022 1:40:21 AM com.priye.pcbook.service.LaptopService createLaptop
+INFO: saved laptop with ID: 7d062fbb-b0b4-443a-81dc-917ad9586b1a
+]]></system-err>
+</testsuite>
